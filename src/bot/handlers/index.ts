@@ -7,6 +7,7 @@ import panel from "./panel";
 import playlist from "./playlist";
 import shuffle from "./shuffle";
 import stream from "./stream";
+import start from "./start";
 
 const composer = new Composer();
 
@@ -20,4 +21,5 @@ composer
     .use(panel)
     .use(playlist)
     .use(shuffle)
-    .use(stream);
+    .use(stream)
+    .use(start);
